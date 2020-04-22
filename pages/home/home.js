@@ -38,7 +38,7 @@ Page({
   },
   onLoad() {
     wx.request({
-      url: 'http://123.207.32.32:8000/api/h8/recommend',
+      url: 'http://123.207.32.32:8000/recommend',
       success: (res) => {
         // console.log(res)
         const data = res.data.data.list
