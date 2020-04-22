@@ -1,6 +1,0 @@
-
-<!-- wxs的应用 -->
-<wxs src="../../wxs/format.wxs" module="format" />
-<view>{{format.priceFormat(price, 3)}}</view>
-<view>{{format.dataFormat(time, "yyyy-MM-dd hh:mm:ss")}}</view>
-

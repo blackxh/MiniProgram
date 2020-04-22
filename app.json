@@ -1,18 +1,7 @@
 {
   "pages": [
-    "pages/request/request",
-    "pages/component/component",
     "pages/home/home",
-    "pages/wxs/wxs",
-    "pages/wxml/wxml",
-    "pages/scroll/scroll",
-    "pages/about/about",
-    "pages/view/view",
-    "pages/profile/profile",
-    "pages/category/category",
-    "components/my-event/my-event",
-    "components/w-tab-control/w-tab-control",
-    "components/my-sel/my-sel"
+    "pages/about/about"
   ],
   "sitemapLocation": "sitemap60.json",
   "window": {
@@ -32,7 +21,7 @@
         "selectedIconPath": ""
       },
       {
-        "pagePath": "pages/category/category",
+        "pagePath": "pages/about/about",
         "text": "分类",
         "iconPath": "",
         "selectedIconPath": ""
