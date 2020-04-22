@@ -1,0 +1,29 @@
+<!--pages/home/home.wxml-->
+<!-- 1、小程序的数据绑定：{{}} -->
+<view>Hello {{name}}</view>
+<view>年龄：{{age}}</view>
+
+<!-- 2.列表展示：wx:for -->
+<!-- <view wx:for="{{students}}">{{item.name}}--{{item.age}}</view> -->
+
+<!-- 事件监听改变data -->
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap="handleBtnClick">+</button>
+<button size="mini" bindtap="handleSubtraction">-</button>
+
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取授权</button>
+
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+
+
+<button bindtap="handleChooseAlbum">选中图片</button>
+<image src="{{imagePath}}"></image>
+<view>-----------------------------------------------------------------------------------</view>
+
+<image wx:for="{{10}}" wx:key="index" src="../../img/下载.jfif" bindload="imageLoad" lazy-load />
+
+<image src="../../img/下载.jfif" show-menu-by-longpress />
+
+
+<view wx:for="{{list}}" wx:key="index">{{item.title}}</view>
